@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.text {
+  color: #102a42;
+  font-size: 16px;
+  text-align: center;
+}
+
+#tabs {
+  width: 50%;
+  margin-left: 10px;
+}
+
+img {
+  margin-right: 10px;
+}
+
+button{
+  padding: 6px 20px;
+  background-color: black;
+  color: white;
+}
